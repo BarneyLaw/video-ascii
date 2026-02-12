@@ -1,0 +1,1 @@
+A small program to turn any video into its terminal ASCII version. Best used for videos with high contrast like Bad Apple.
