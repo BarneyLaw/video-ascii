@@ -1,0 +1,53 @@
+
+# --- Build directories ---
+build/
+build*/          # Build variants (build-debug, build-release, etc.)
+
+# --- CMake cache files ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# --- Compiled object files ---
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+
+# --- Compiled binaries ---
+*.exe
+*.out
+*.app
+ascii_video
+
+# --- Debug + profiling ---
+*.gch
+*.pch
+*.gcno
+*.gcda
+*.gcov
+
+# --- Editor / IDE files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- MacOS temp files ---
+.DS_Store
+
+# --- Logs ---
+*.log
+
+# --- Docker ---
+# (We don't ignore the Dockerfile — only artifacts)
+.docker/
+
+# --- Other temp files ---
+*.tmp
+*.bak
+*~
