@@ -1,0 +1,2 @@
+# Legacy file kept for compatibility.
+# Use CMakeLists.txt in the repository root for builds.
